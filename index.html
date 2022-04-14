@@ -37,6 +37,14 @@
                             { label: "Hemisferio Norte", data: norte.slice(1), borderColor: "#7570b3", borderWidth: 1, pointRadius: 2 },
                             { label: "Hemisferio Sur", data: sur.slice(1), borderColor: "#d95f02", borderWidth: 1, pointRadius: 2 }
                         ]
+                    },
+                    options: {
+                      plugins: {
+                        title: {
+                          display: true,
+                          text: "No sé de qué es este gráfico"
+                        }
+                      }
                     }
                 });
             }
