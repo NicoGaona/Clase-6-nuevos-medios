@@ -27,7 +27,16 @@
                     data: {
                         labels: nombres,
                         datasets: [{label: "StarWars", data: estaturas, backgroundColor: "#778"}]
+                    },
+                    options: {
+                      plugins: {
+                        title: {
+                          display: true,
+                          text: "StarWars"
+                        }
+                      }
                     }
+
                 });
             }
             todo().catch((error) => console.error(error));
