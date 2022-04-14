@@ -38,12 +38,14 @@
                     data: {
                         labels: nombres,
                         datasets: [{label: "Earthquakes", data: numeros, backgroundColor: colores}]
-                        options: {
-                        plugins: {
-                            legend: { display: false},
-                            title: { display: true, text: "Tsunamis" },
+                    },
+                    options: {
+                      plugins: {
+                        title: {
+                          display: true,
+                          text: "Tsunamis"
                         }
-                    }
+                      }
                     }
                 });
             }
