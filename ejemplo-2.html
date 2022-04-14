@@ -41,6 +41,14 @@
                     data: {
                         labels: nombres,
                         datasets: [{label: "Earthquakes", data: numeros, backgroundColor: colores}]
+                    },
+                    options: {
+                      plugins: {
+                        title: {
+                          display: true,
+                          text: "Terremotos"
+                        }
+                      }
                     }
                 });
             }
